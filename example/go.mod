@@ -6,8 +6,10 @@ replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.2-alp
 
 replace github.com/rs/zerolog => github.com/rs/zerolog v1.23.0
 
+replace github.com/calvinlauyh/cosmosutils => github.com/WilliamXieCrypto/cosmosutils v0.1.1
+
+
 require (
-	github.com/BurntSushi/toml v0.4.1
 	github.com/urfave/cli/v2 v2.3.0
 )
 
