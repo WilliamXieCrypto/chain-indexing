@@ -20,7 +20,7 @@ type Config struct {
 	ConnString       string
 }
 
-const MIGRATION_GITHUB_URL_FORMAT = "github://%s:%s@crypto-com/chain-indexing/%s"
+const MIGRATION_GITHUB_URL_FORMAT = "github://%s:%s@WilliamXieCrypto/chain-indexing/%s"
 const MIGRATION_DIRECTORY_FORMAT = "projection/%s/migrations"
 
 func NewGithubMigrationHelper(sourceURL string, databaseURL string) *GithubMigrationHelper {

@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 type ParsedTxsResultLog struct {

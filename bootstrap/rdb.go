@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/bootstrap/config"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
 )
 
 func SetupRDbConn(config *config.Config, logger applogger.Logger) (rdb.Conn, error) {

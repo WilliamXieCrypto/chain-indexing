@@ -4,12 +4,12 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
-	nft_view "github.com/crypto-com/chain-indexing/projection/nft/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
+	nft_view "github.com/WilliamXieCrypto/chain-indexing/projection/nft/view"
 	"github.com/valyala/fasthttp"
 )
 

@@ -3,17 +3,17 @@ package parser_test
 import (
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 
-	"github.com/crypto-com/chain-indexing/infrastructure/tendermint"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser"
 	. "github.com/onsi/ginkgo"
 
-	usecase_parser_test "github.com/crypto-com/chain-indexing/usecase/parser/test"
+	usecase_parser_test "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/test"
 	. "github.com/onsi/gomega"
 )
 

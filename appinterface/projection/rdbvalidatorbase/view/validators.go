@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 // A "Validators" compatible table should have the follow table schema

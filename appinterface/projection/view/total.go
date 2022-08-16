@@ -6,7 +6,7 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 // A "Total" compatible table should have the follow table schema

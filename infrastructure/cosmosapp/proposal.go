@@ -1,6 +1,6 @@
 package cosmosapp
 
-import cosmosapp_interface "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
+import cosmosapp_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
 
 type ProposalsResp struct {
 	MaybeProposalsResponse []cosmosapp_interface.Proposal `json:"proposals"`

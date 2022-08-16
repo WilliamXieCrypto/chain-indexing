@@ -7,15 +7,15 @@ import (
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 	_ "github.com/golang-migrate/migrate/v4/source/github"
 
-	cosmosapp_interface "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbprojectionbase"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper"
-	account_view "github.com/crypto-com/chain-indexing/projection/account/view"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	cosmosapp_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbprojectionbase"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper"
+	account_view "github.com/WilliamXieCrypto/chain-indexing/projection/account/view"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 )
 
 // Account number, sequence number, balances are fetched from the latest state (regardless of current replaying height)

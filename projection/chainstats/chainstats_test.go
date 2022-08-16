@@ -1,7 +1,7 @@
 package chainstats_test
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 	"path"
 	"runtime"
 	"time"
@@ -9,15 +9,15 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	. "github.com/crypto-com/chain-indexing/external/logger/test"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/projection/chainstats"
-	chainstats_view "github.com/crypto-com/chain-indexing/projection/chainstats/view"
-	. "github.com/crypto-com/chain-indexing/test"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	model_usecase "github.com/crypto-com/chain-indexing/usecase/model"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	. "github.com/WilliamXieCrypto/chain-indexing/external/logger/test"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/chainstats"
+	chainstats_view "github.com/WilliamXieCrypto/chain-indexing/projection/chainstats/view"
+	. "github.com/WilliamXieCrypto/chain-indexing/test"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	model_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 var CHAINSTATS_MIGRATIONS_PATH = func() string {

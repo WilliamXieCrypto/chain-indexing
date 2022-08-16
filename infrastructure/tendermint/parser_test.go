@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/crypto-com/chain-indexing/infrastructure/tendermint"
-	infrastructure_tendermint_test "github.com/crypto-com/chain-indexing/infrastructure/tendermint/test"
+	. "github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
+	infrastructure_tendermint_test "github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint/test"
 )
 
 var _ = Describe("Parser", func() {

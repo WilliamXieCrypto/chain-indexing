@@ -3,7 +3,7 @@ package tmcosmosutils
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 // MustNewCoinFromAmountInterface returns a Coin from the amount map in the form of

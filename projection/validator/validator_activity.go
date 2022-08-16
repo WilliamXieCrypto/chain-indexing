@@ -3,11 +3,11 @@ package validator
 import (
 	"fmt"
 
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/projection/validator/view"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/view"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 )
 
 // a simple tool to keep record of incremental record

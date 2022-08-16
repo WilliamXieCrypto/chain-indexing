@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/appinterface/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/tendermint"
 
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 
-	usecase_model "github.com/crypto-com/chain-indexing/usecase/model"
+	usecase_model "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 var _ tendermint.Client = &HTTPClient{}

@@ -1,8 +1,8 @@
 package tendermint
 
 import (
-	usecase_model "github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	usecase_model "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 )
 
 type Client interface {

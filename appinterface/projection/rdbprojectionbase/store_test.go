@@ -6,11 +6,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbprojectionbase"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	. "github.com/crypto-com/chain-indexing/test"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbprojectionbase"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	. "github.com/WilliamXieCrypto/chain-indexing/test"
 )
 
 var _ = Describe("RdbStoreImpl", func() {

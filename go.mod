@@ -1,4 +1,4 @@
-module github.com/crypto-com/chain-indexing
+module github.com/WilliamXieCrypto/chain-indexing
 
 go 1.17
 

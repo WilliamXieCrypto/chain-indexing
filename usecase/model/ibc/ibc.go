@@ -1,7 +1,7 @@
 package ibc
 
 import (
-	"github.com/crypto-com/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
 )
 
 type Height struct {

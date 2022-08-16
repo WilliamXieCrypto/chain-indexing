@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/internal/slice"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/slice"
 )
 
 var _ = Describe("SLice", func() {

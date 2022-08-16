@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/projection/block/view"
-	. "github.com/crypto-com/chain-indexing/test"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/block/view"
+	. "github.com/WilliamXieCrypto/chain-indexing/test"
 )
 
 var BLOCK_MIGRATIONS_PATH = func() string {

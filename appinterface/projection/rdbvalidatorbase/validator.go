@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbvalidatorbase/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbvalidatorbase/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 )
 
 const DO_NOT_MODIFY = "[do-not-modify]"

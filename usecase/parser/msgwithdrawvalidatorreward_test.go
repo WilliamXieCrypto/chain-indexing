@@ -3,19 +3,19 @@ package parser_test
 import (
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
-	"github.com/crypto-com/chain-indexing/infrastructure/tendermint"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser"
-	usecase_parser_test "github.com/crypto-com/chain-indexing/usecase/parser/test"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser"
+	usecase_parser_test "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/test"
 )
 
 var _ = Describe("ParseMsgCommands", func() {

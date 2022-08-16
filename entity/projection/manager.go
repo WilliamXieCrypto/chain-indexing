@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/metric/prometheus"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/metric/prometheus"
 )
 
 // StoreBasedManager is a projection manager relies on replaying events from EventStore

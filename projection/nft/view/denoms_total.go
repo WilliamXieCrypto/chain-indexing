@@ -1,8 +1,8 @@
 package view
 
 import (
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 const DENOMS_TOTAL_TABLE_NAME = "view_nft_denoms_total"

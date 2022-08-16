@@ -6,7 +6,7 @@ import (
 
 	testify_mock "github.com/stretchr/testify/mock"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbparambase/types"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbparambase/types"
 )
 
 type MockParamsView struct {

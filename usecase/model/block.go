@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/crypto-com/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
 	"github.com/luci/go-render/render"
 )
 

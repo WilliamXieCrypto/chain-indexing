@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 	"github.com/rs/zerolog"
 )
 

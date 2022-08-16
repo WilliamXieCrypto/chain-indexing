@@ -1,14 +1,14 @@
 package parser_test
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/parser"
-	usecase_parser_test "github.com/crypto-com/chain-indexing/usecase/parser/test"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser"
+	usecase_parser_test "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/test"
 )
 
 var _ = Describe("ParseValidatorUpdatesCommands", func() {

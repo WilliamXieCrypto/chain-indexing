@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/crypto-com/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
 
-	pagination_interface "github.com/crypto-com/chain-indexing/appinterface/pagination"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	pagination_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 // BlockEvents projection view implemented by relational database

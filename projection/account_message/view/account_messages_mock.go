@@ -1,9 +1,9 @@
 package view
 
 import (
-	pagination_interface "github.com/crypto-com/chain-indexing/appinterface/pagination"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	pagination_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 	"github.com/stretchr/testify/mock"
 )
 

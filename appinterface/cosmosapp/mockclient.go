@@ -1,7 +1,7 @@
 package cosmosapp
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 	"github.com/stretchr/testify/mock"
 )
 

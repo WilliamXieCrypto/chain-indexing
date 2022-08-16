@@ -9,8 +9,8 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
-	usecase_model "github.com/crypto-com/chain-indexing/usecase/model"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	usecase_model "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 const RAW_BLOCK_CREATED = "RawBlockCreated"

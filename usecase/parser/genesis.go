@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
-	"github.com/crypto-com/chain-indexing/projection/validator/constants"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/constants"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 )
 
 func ParseGenesisCommands(

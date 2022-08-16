@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

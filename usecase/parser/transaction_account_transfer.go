@@ -1,11 +1,11 @@
 package parser
 
 import (
-	"github.com/crypto-com/chain-indexing/entity/command"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 func ParseTxAccountTransferCommands(

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/external/json"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 // AccountTransactionData projection view implemented by relational database

@@ -7,11 +7,11 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/crypto-com/chain-indexing/appinterface/pagination"
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/projection/ibc_channel/types"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/types"
 )
 
 type IBCChannels interface {

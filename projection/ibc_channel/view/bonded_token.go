@@ -1,6 +1,6 @@
 package view
 
-import "github.com/crypto-com/chain-indexing/usecase/coin"
+import "github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
 // OnThisChain:         keep track of tokens from counterparty chain transferring to this chain
 // OnCounterpartyChain: keep track of tokens from this chain transferring to counterparty chain

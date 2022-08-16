@@ -5,21 +5,21 @@ import (
 	"testing"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/crypto-com/chain-indexing/external/json"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	ibc_channel_view "github.com/crypto-com/chain-indexing/projection/ibc_channel/view"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	ibc_channel_view "github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/view"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 	"github.com/stretchr/testify/assert"
 	testify_mock "github.com/stretchr/testify/mock"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb/test"
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/projection/ibc_channel"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	ibc_model "github.com/crypto-com/chain-indexing/usecase/model/ibc"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb/test"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	ibc_model "github.com/WilliamXieCrypto/chain-indexing/usecase/model/ibc"
 )
 
 func NewIBCChannelProjection(rdbConn rdb.Conn) *ibc_channel.IBCChannel {

@@ -5,8 +5,8 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
 )
 
 func URLValueGuard(ctx *fasthttp.RequestCtx, logger applogger.Logger, key string) (string, bool) {

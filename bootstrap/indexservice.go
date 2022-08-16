@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	event_interface "github.com/crypto-com/chain-indexing/appinterface/event"
-	eventhandler_interface "github.com/crypto-com/chain-indexing/appinterface/eventhandler"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/bootstrap/config"
-	"github.com/crypto-com/chain-indexing/entity/event"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	event_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/event"
+	eventhandler_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/eventhandler"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 type IndexService struct {

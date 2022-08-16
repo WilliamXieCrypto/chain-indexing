@@ -2,11 +2,11 @@ package test
 
 import (
 	"fmt"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	. "github.com/crypto-com/chain-indexing/external/logger/test"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/internal/typeconv"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	. "github.com/WilliamXieCrypto/chain-indexing/external/logger/test"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/typeconv"
 	"os"
 	"path"
 	"runtime"

@@ -3,15 +3,15 @@ package handlers
 import (
 	"errors"
 
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/primptr"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
 	"github.com/valyala/fasthttp"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
-	ibc_channel_types "github.com/crypto-com/chain-indexing/projection/ibc_channel/types"
-	ibc_channel_view "github.com/crypto-com/chain-indexing/projection/ibc_channel/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
+	ibc_channel_types "github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/types"
+	ibc_channel_view "github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/view"
 )
 
 type IBCChannel struct {

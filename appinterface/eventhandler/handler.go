@@ -1,6 +1,6 @@
 package eventhandler
 
-import "github.com/crypto-com/chain-indexing/entity/event"
+import "github.com/WilliamXieCrypto/chain-indexing/entity/event"
 
 type Handler interface {
 	GetLastHandledEventHeight() (*int64, error)

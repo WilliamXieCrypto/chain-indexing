@@ -5,15 +5,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/crypto-com/chain-indexing/bootstrap"
-	configuration "github.com/crypto-com/chain-indexing/bootstrap/config"
-	"github.com/crypto-com/chain-indexing/example/app/example-app/routes"
-	"github.com/crypto-com/chain-indexing/example/internal/filereader/yaml"
-	"github.com/urfave/cli/v2"
-
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/infrastructure"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+	configuration "github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	"github.com/WilliamXieCrypto/chain-indexing/example/app/example-app/routes"
+	"github.com/WilliamXieCrypto/chain-indexing/example/internal/filereader/yaml"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure"
 )
 
 func run(args []string) error {

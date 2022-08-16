@@ -3,14 +3,14 @@ package event
 import (
 	"bytes"
 
-	"github.com/crypto-com/chain-indexing/projection/validator/constants"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/constants"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/luci/go-render/render"
 )

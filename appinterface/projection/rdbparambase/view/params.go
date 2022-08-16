@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbparambase/types"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbparambase/types"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 // A "Params" compatible table should have the follow table schema

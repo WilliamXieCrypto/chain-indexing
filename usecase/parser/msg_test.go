@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 
-	"github.com/crypto-com/chain-indexing/infrastructure/tendermint"
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 func mustParseBlockResp(rawResp string) (*model.Block, *model.RawBlock) {

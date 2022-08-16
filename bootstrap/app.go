@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	config "github.com/crypto-com/chain-indexing/bootstrap/config"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/metric/prometheus"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	config "github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/metric/prometheus"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
 	"github.com/golang-migrate/migrate/v4"
 )
 
@@ -56,7 +56,7 @@ func NewApp(logger applogger.Logger, config *config.Config) *app {
 
 const (
 	MIGRATION_TABLE_NAME    = "schema_migrations"
-	MIGRATION_GITHUB_TARGET = "github://%s:%s@crypto-com/chain-indexing/migrations%s"
+	MIGRATION_GITHUB_TARGET = "github://%s:%s@WilliamXieCrypto/chain-indexing/migrations%s"
 )
 
 func migrationDBConnString(conn rdb.Conn) string {

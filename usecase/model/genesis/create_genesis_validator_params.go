@@ -1,9 +1,9 @@
 package genesis
 
 import (
-	"github.com/crypto-com/chain-indexing/projection/validator/constants"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/constants"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 type CreateGenesisValidatorParams struct {

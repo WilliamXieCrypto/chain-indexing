@@ -3,11 +3,11 @@ package eventhandler
 import (
 	"fmt"
 
-	event_interface "github.com/crypto-com/chain-indexing/appinterface/event"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/appinterface/rdbstatusstore"
-	"github.com/crypto-com/chain-indexing/entity/event"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
+	event_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/event"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdbstatusstore"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 )
 
 var _ Handler = &RDbEventStoreHandler{}

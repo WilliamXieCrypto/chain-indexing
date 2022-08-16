@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	cosmosapp_interface "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	cosmosapp_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 	jsoniter "github.com/json-iterator/go"
 )
 

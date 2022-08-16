@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	cosmosapp_interface "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
-	"github.com/crypto-com/chain-indexing/internal/base64"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	cosmosapp_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/base64"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 func ParseSignerInfosToTransactionSigners(

@@ -7,13 +7,13 @@ import (
 	"time"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/crypto-com/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/logger"
 	"github.com/google/go-querystring/query"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 var PostgresStmtBuilder = rdb.NewStatementBuilder(

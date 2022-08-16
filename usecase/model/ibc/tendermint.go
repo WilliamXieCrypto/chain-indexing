@@ -1,6 +1,6 @@
 package ibc
 
-import "github.com/crypto-com/chain-indexing/usecase/model"
+import "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 
 type TendermintLightClientState struct {
 	Type                         string                           `mapstructure:"@type" json:"@type"`

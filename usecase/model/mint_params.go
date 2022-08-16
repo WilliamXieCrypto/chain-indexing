@@ -1,6 +1,6 @@
 package model
 
-import "github.com/crypto-com/chain-indexing/usecase/coin"
+import "github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
 type MintParams struct {
 	BondedRatio      string

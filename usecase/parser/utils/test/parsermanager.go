@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/crypto-com/chain-indexing/entity/command"
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 type commandA struct{}

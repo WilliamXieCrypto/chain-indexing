@@ -3,9 +3,9 @@ package eventhandler
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/entity/event"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 )
 
 var _ Handler = &ProjectionHandler{}

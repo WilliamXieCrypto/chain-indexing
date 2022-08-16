@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/suite"
 	"gopkg.in/yaml.v2"
 
-	sdk "github.com/crypto-com/chain-indexing/usecase/coin"
+	sdk "github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 type decimalTestSuite struct {

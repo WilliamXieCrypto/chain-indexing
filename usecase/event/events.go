@@ -1,7 +1,7 @@
 package event
 
 import (
-	"github.com/crypto-com/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/event"
 )
 
 func RegisterEvents(registry *event.Registry) {

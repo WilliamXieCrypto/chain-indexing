@@ -7,17 +7,17 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	pagination_interface "github.com/crypto-com/chain-indexing/appinterface/pagination"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	. "github.com/crypto-com/chain-indexing/external/logger/test"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/projection/blockevent"
-	"github.com/crypto-com/chain-indexing/projection/blockevent/view"
-	. "github.com/crypto-com/chain-indexing/test"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	model_usecase "github.com/crypto-com/chain-indexing/usecase/model"
+	pagination_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	. "github.com/WilliamXieCrypto/chain-indexing/external/logger/test"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/blockevent"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/blockevent/view"
+	. "github.com/WilliamXieCrypto/chain-indexing/test"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	model_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 var BLOCK_MIGRATIONS_PATH = func() string {

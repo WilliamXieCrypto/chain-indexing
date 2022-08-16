@@ -3,8 +3,8 @@ package factory
 import (
 	"math/rand"
 
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
 	random "github.com/brianvoe/gofakeit/v5"
-	"github.com/crypto-com/chain-indexing/external/utctime"
 )
 
 func addUTCTimeFuncLookup() {

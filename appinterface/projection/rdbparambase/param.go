@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbparambase/types"
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbparambase/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/external/json"
-	"github.com/crypto-com/chain-indexing/external/logger"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbparambase/types"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbparambase/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
 )
 
 var (

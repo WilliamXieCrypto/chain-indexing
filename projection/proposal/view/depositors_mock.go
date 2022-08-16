@@ -3,7 +3,7 @@ package view
 import (
 	testify_mock "github.com/stretchr/testify/mock"
 
-	pagination2 "github.com/crypto-com/chain-indexing/appinterface/pagination"
+	pagination2 "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
 )
 
 type MockDepositorsView struct {

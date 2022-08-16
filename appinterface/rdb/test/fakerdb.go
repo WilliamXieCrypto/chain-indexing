@@ -3,7 +3,7 @@ package test
 import (
 	"math/big"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 type FakeRDbConn struct{}

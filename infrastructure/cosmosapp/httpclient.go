@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
 	jsoniter "github.com/json-iterator/go"
 
-	cosmosapp_interface "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
+	cosmosapp_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
 )
 
 var _ cosmosapp_interface.Client = &HTTPClient{}

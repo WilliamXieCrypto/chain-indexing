@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
 )
 
 func DefaultCronosEVMAddressHookGenerator(accountAddressPrefix string) func(string) (string, error) {

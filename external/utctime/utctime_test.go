@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
 )
 
 var _ = Describe("UTCTime", func() {

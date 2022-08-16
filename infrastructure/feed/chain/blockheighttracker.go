@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
 	"github.com/cenkalti/backoff/v4"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/primptr"
 
-	"github.com/crypto-com/chain-indexing/appinterface/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/tendermint"
 )
 
 const MAX_RETRY_TIME_ALWAYS_RETRY = 0

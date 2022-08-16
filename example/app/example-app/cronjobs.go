@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	configuration "github.com/crypto-com/chain-indexing/bootstrap/config"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper"
-	github_migrationhelper "github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper/github"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	configuration "github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper"
+	github_migrationhelper "github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper/github"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
 )
 
 func initCronJobs(

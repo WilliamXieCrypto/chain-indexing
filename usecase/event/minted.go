@@ -6,9 +6,9 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/luci/go-render/render"
 
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 const MINTED = "Minted"

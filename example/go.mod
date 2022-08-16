@@ -1,4 +1,4 @@
-module github.com/crypto-com/chain-indexing/example
+module github.com/WilliamXieCrypto/chain-indexing/example
 
 go 1.17
 
@@ -14,7 +14,7 @@ require (
 )
 
 require (
-	github.com/crypto-com/chain-indexing v1.3.0
+	github.com/WilliamXieCrypto/chain-indexing v1.3.21
 	github.com/ettle/strcase v0.1.1
 	github.com/valyala/fasthttp v1.17.0
 	gopkg.in/yaml.v2 v2.4.0

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	commandentity "github.com/crypto-com/chain-indexing/entity/command"
-	"github.com/crypto-com/chain-indexing/external/json"
-	"github.com/crypto-com/chain-indexing/internal/typeconv"
-	"github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	commandentity "github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/typeconv"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 func ParseBlockResultsTxsResults(

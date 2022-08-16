@@ -12,10 +12,10 @@ package main
 import (
 	"os"
 
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/bootstrap"
-	"github.com/crypto-com/chain-indexing/infrastructure"
-	"github.com/crypto-com/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/projection"
 )
 
 func main() {
@@ -181,17 +181,17 @@ package main
 import (
 	"github.com/ettle/strcase"
 
-	"github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/bootstrap"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	cosmosapp_infrastructure "github.com/crypto-com/chain-indexing/infrastructure/cosmosapp"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper"
-	github_migrationhelper "github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper/github"
-	"github.com/crypto-com/chain-indexing/projection/account"
-	"github.com/crypto-com/chain-indexing/projection/account_transaction"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	cosmosapp_infrastructure "github.com/WilliamXieCrypto/chain-indexing/infrastructure/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper"
+	github_migrationhelper "github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper/github"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/account"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/account_transaction"
 )
 
 func initProjections(
@@ -259,13 +259,13 @@ package example
 import (
 	"fmt"
 
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 	example_view "your_view_packge"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbprojectionbase"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbprojectionbase"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 )
 
 type AdditionalExampleProjection struct {
@@ -351,12 +351,12 @@ package view
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	_ "github.com/crypto-com/chain-indexing/test/factory"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	_ "github.com/WilliamXieCrypto/chain-indexing/test/factory"
 )
 
 type Examples interface {
@@ -441,14 +441,14 @@ func initProjections(
 package main
 
 import (
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/bootstrap"
-	projection_entity "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper"
-	github_migrationhelper "github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper/github"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+	projection_entity "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper"
+	github_migrationhelper "github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper/github"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
 )
 
 func initCronJobs(
@@ -494,14 +494,14 @@ func initCronJobs(
 package routes
 
 import (
-    "github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-    "github.com/crypto-com/chain-indexing/appinterface/rdb"
-    "github.com/crypto-com/chain-indexing/appinterface/tendermint"
-    "github.com/crypto-com/chain-indexing/bootstrap"
-    applogger "github.com/crypto-com/chain-indexing/external/logger"
-    cosmosapp_infrastructure "github.com/crypto-com/chain-indexing/infrastructure/cosmosapp"
-    httpapi_handlers "github.com/crypto-com/chain-indexing/infrastructure/httpapi/handlers"
-    tendermint_infrastructure "github.com/crypto-com/chain-indexing/infrastructure/tendermint"
+    "github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+    "github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+    "github.com/WilliamXieCrypto/chain-indexing/appinterface/tendermint"
+    "github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+    applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+    cosmosapp_infrastructure "github.com/WilliamXieCrypto/chain-indexing/infrastructure/cosmosapp"
+    httpapi_handlers "github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi/handlers"
+    tendermint_infrastructure "github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
 )
 
 func InitRouteRegistry(
@@ -558,7 +558,7 @@ package routes
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
 	"github.com/valyala/fasthttp"
 )
 
@@ -596,7 +596,7 @@ const (
 
 ## 2. Example implementation
 
-[Go here](https://github.com/crypto-com/chain-indexing/tree/master/example)
+[Go here](https://github.com/WilliamXieCrypto/chain-indexing/tree/master/example)
 
 ## 3. Test
 

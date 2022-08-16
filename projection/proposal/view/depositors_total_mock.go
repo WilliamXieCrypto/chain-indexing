@@ -3,7 +3,7 @@ package view
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 type MockDepositorsTotalView struct {

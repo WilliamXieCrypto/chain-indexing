@@ -5,21 +5,21 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/tmcosmosutils"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/projection/validator/constants"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/model/genesis"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
-	mapstructure_utils "github.com/crypto-com/chain-indexing/usecase/parser/utils/mapstructure"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/tmcosmosutils"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/constants"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model/genesis"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
+	mapstructure_utils "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils/mapstructure"
 )
 
 func ParseBlockTxsMsgToCommands(
@@ -121,7 +121,7 @@ func ParseBlockTxsMsgToCommands(
 				// cosmos authz
 				"/cosmos.authz.v1beta1.MsgGrant",
 				"/cosmos.authz.v1beta1.MsgRevoke",
-				// FIXME: https://github.com/crypto-com/chain-indexing/issues/673
+				// FIXME: https://github.com/WilliamXieCrypto/chain-indexing/issues/673
 				//"/cosmos.authz.v1beta1.MsgExec",
 
 				// cosmos feegrant

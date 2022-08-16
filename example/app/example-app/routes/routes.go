@@ -1,16 +1,16 @@
 package routes
 
 import (
-	"github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/appinterface/tendermint"
-	"github.com/crypto-com/chain-indexing/bootstrap"
-	"github.com/crypto-com/chain-indexing/bootstrap/config"
-	custom_httpapi_handlers "github.com/crypto-com/chain-indexing/example/httpapi/handlers"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	cosmosapp_infrastructure "github.com/crypto-com/chain-indexing/infrastructure/cosmosapp"
-	httpapi_handlers "github.com/crypto-com/chain-indexing/infrastructure/httpapi/handlers"
-	tendermint_infrastructure "github.com/crypto-com/chain-indexing/infrastructure/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap"
+	"github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
+	custom_httpapi_handlers "github.com/WilliamXieCrypto/chain-indexing/example/httpapi/handlers"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	cosmosapp_infrastructure "github.com/WilliamXieCrypto/chain-indexing/infrastructure/cosmosapp"
+	httpapi_handlers "github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi/handlers"
+	tendermint_infrastructure "github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
 )
 
 func InitRouteRegistry(

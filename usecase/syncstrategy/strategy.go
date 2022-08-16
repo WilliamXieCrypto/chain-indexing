@@ -1,7 +1,7 @@
 package syncstrategy
 
 import (
-	"github.com/crypto-com/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
 )
 
 type Strategy interface {

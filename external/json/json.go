@@ -3,7 +3,7 @@ package json
 import (
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/crypto-com/chain-indexing/internal/sanitizer"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/sanitizer"
 )
 
 func MustMarshalToString(v interface{}) string {

@@ -1,9 +1,9 @@
 package parser
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/parser/ibcmsg"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
-	V0_42_7_ibcmsg "github.com/crypto-com/chain-indexing/usecase/parser/v0_42_7/ibcmsg"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/ibcmsg"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
+	V0_42_7_ibcmsg "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/v0_42_7/ibcmsg"
 )
 
 const BEGIN_BLOCK_HEIGHT = 0
@@ -69,7 +69,7 @@ func InitParsers(manager *utils.CosmosParserManager) {
 	// cosmos authz
 	manager.RegisterParser("/cosmos.authz.v1beta1.MsgGrant", BEGIN_BLOCK_HEIGHT, ParseMsgGrant)
 	manager.RegisterParser("/cosmos.authz.v1beta1.MsgRevoke", BEGIN_BLOCK_HEIGHT, ParseMsgRevoke)
-	// FIXME: https://github.com/crypto-com/chain-indexing/issues/673
+	// FIXME: https://github.com/WilliamXieCrypto/chain-indexing/issues/673
 	//manager.RegisterParser("/cosmos.authz.v1beta1.MsgExec", BEGIN_BLOCK_HEIGHT, ParseMsgExec)
 
 	// cosmos feegrant

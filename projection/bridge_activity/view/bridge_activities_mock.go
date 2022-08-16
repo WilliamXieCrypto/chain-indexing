@@ -3,7 +3,7 @@ package view
 import (
 	"github.com/stretchr/testify/mock"
 
-	pagination_interface "github.com/crypto-com/chain-indexing/appinterface/pagination"
+	pagination_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
 )
 
 type MockBridgeActivitiesView struct {

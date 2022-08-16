@@ -3,7 +3,7 @@ package view
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 type IBCChannelTraces struct {

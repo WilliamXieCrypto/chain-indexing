@@ -3,11 +3,11 @@ package parser
 import (
 	"fmt"
 
-	"github.com/crypto-com/chain-indexing/entity/command"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	command_usecase "github.com/crypto-com/chain-indexing/usecase/command"
-	"github.com/crypto-com/chain-indexing/usecase/model"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/entity/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	command_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/command"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 func ParseBeginBlockEventsCommands(
@@ -33,7 +33,7 @@ func ParseBeginBlockEventsCommands(
 		if event.Type == "transfer" {
 			transferEvent := utils.NewParsedTxsResultLogEvent(&beginBlockEvents[i])
 
-			// TODO: Missing Multi-send support (https://github.com/crypto-com/chain-indexing/issues/682)
+			// TODO: Missing Multi-send support (https://github.com/WilliamXieCrypto/chain-indexing/issues/682)
 			if !transferEvent.HasAttribute("sender") {
 				continue
 			}

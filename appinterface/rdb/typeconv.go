@@ -3,7 +3,7 @@ package rdb
 import (
 	"math/big"
 
-	"github.com/crypto-com/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
 )
 
 type TypeConv interface {

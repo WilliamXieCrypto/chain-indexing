@@ -1,8 +1,8 @@
 package usecase_parser_test
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/parser"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 )
 
 func InitParserManager() *utils.CosmosParserManager {

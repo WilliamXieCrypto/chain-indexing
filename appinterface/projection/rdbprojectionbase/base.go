@@ -1,9 +1,9 @@
 package rdbprojectionbase
 
 import (
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	projection_usecase "github.com/crypto-com/chain-indexing/usecase/projection"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	projection_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/projection"
 )
 
 const DEFAULT_TABLE = "projections"

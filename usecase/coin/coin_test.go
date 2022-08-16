@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/crypto-com/chain-indexing/usecase/coin"
+	sdk "github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 var (

@@ -1,8 +1,8 @@
 package utils_test
 
 import (
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils/test"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils/test"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

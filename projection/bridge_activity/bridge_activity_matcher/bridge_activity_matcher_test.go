@@ -8,17 +8,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	testify_mock "github.com/stretchr/testify/mock"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb/test"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	test_logger "github.com/crypto-com/chain-indexing/external/logger/test"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/types"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/view"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb/test"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	test_logger "github.com/WilliamXieCrypto/chain-indexing/external/logger/test"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/bridge_activity_matcher"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/types"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/view"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 func TestBridgeActivityMatcher_HandleEvents(t *testing.T) {

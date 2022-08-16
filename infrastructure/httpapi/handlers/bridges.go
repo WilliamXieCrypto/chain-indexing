@@ -7,15 +7,15 @@ import (
 
 	"github.com/valyala/fasthttp"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/view"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/primptr"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
-	"github.com/crypto-com/chain-indexing/projection/bridge_activity/types"
-	bridge_activitiy_view "github.com/crypto-com/chain-indexing/projection/bridge_activity/view"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/view"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/types"
+	bridge_activitiy_view "github.com/WilliamXieCrypto/chain-indexing/projection/bridge_activity/view"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 )
 
 type Bridges struct {

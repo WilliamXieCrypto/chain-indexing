@@ -45,7 +45,7 @@ ifndef GINKGO
 endif
 
 build_ginkgo_image:
-	docker build -t crypto-com/chain-indexing/ginkgo docker/ginkgo
+	docker build -t WilliamXieCrypto/chain-indexing/ginkgo docker/ginkgo
 
 test: has_docker has_docker_compose has_golang build_ginkgo_image
 ifeq ($(TEST_DB), 1)
@@ -54,19 +54,19 @@ else
 	# TODO: Migrate coin test cases to Ginkgo
 	docker run --rm -v $(shell pwd):/app -w /app \
 		-e TEST_DB=$(TEST_DB) \
-		crypto-com/chain-indexing/ginkgo \
+		WilliamXieCrypto/chain-indexing/ginkgo \
 		ginkgo -r && \
 		go test ./usecase/coin/...
 endif
 
 test_watch: has_docker has_docker_compose build_ginkgo_image
 	docker run --rm -v $(shell pwd):/app -w /app \
-		crypto-com/chain-indexing/ginkgo \
+		WilliamXieCrypto/chain-indexing/ginkgo \
 		ginkgo watch -r
 
 ginkgo: has_docker has_docker_compose build_ginkgo_image
 	docker run --rm -v $(shell pwd):/app -w /app \
-		crypto-com/chain-indexing/ginkgo \
+		WilliamXieCrypto/chain-indexing/ginkgo \
 		ginkgo $(filter-out $@,$(MAKECMDGOALS))
 
 test_local: has_golang install_ginkgo_local has_ginkgo

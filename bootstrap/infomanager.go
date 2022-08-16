@@ -3,10 +3,10 @@ package bootstrap
 import (
 	"time"
 
-	"github.com/crypto-com/chain-indexing/appinterface/polling"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/infrastructure/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/polling"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
 )
 
 // TODO: Move InfoManager to CronJob

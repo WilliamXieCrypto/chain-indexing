@@ -9,17 +9,17 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/crypto-com/chain-indexing/appinterface/projection/rdbprojectionbase"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	entity_projection "github.com/crypto-com/chain-indexing/entity/projection"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
-	"github.com/crypto-com/chain-indexing/external/utctime"
-	"github.com/crypto-com/chain-indexing/infrastructure/pg/migrationhelper"
-	"github.com/crypto-com/chain-indexing/projection/ibc_channel/types"
-	ibc_channel_view "github.com/crypto-com/chain-indexing/projection/ibc_channel/view"
-	"github.com/crypto-com/chain-indexing/usecase/coin"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/projection/rdbprojectionbase"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	entity_projection "github.com/WilliamXieCrypto/chain-indexing/entity/projection"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/external/utctime"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg/migrationhelper"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/types"
+	ibc_channel_view "github.com/WilliamXieCrypto/chain-indexing/projection/ibc_channel/view"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
 )
 
 var _ entity_projection.Projection = &IBCChannel{}

@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/internal/typeconv"
+	"github.com/WilliamXieCrypto/chain-indexing/internal/typeconv"
 )
 
 var _ = Describe("MustAtoi32", func() {

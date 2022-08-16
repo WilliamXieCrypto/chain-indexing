@@ -1,15 +1,14 @@
 package view
 
 import (
-	"github.com/crypto-com/chain-indexing/appinterface/pagination"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 	"github.com/stretchr/testify/mock"
 )
 
 type MockAccountsView struct {
 	mock.Mock
 }
-
 
 func NewMockAccountsView(_ *rdb.Handle) Accounts {
 	return &MockAccountsView{}

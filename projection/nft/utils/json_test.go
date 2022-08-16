@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/projection/nft/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/nft/utils"
 )
 
 var _ = Describe("Utils", func() {

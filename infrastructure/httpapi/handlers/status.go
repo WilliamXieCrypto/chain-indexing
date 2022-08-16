@@ -5,24 +5,24 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/appinterface/cosmosapp"
-	"github.com/crypto-com/chain-indexing/external/json"
-	applogger "github.com/crypto-com/chain-indexing/external/logger"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/cosmosapp"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 
-	"github.com/crypto-com/chain-indexing/projection/chainstats"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/chainstats"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
-	status_polling "github.com/crypto-com/chain-indexing/appinterface/polling"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	"github.com/crypto-com/chain-indexing/infrastructure/httpapi"
-	block_view "github.com/crypto-com/chain-indexing/projection/block/view"
-	chainstats_view "github.com/crypto-com/chain-indexing/projection/chainstats/view"
-	transaction_view "github.com/crypto-com/chain-indexing/projection/transaction/view"
-	"github.com/crypto-com/chain-indexing/projection/validator/constants"
-	validator_view "github.com/crypto-com/chain-indexing/projection/validator/view"
-	"github.com/crypto-com/chain-indexing/projection/validatorstats"
-	validatorstats_view "github.com/crypto-com/chain-indexing/projection/validatorstats/view"
+	status_polling "github.com/WilliamXieCrypto/chain-indexing/appinterface/polling"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/httpapi"
+	block_view "github.com/WilliamXieCrypto/chain-indexing/projection/block/view"
+	chainstats_view "github.com/WilliamXieCrypto/chain-indexing/projection/chainstats/view"
+	transaction_view "github.com/WilliamXieCrypto/chain-indexing/projection/transaction/view"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validator/constants"
+	validator_view "github.com/WilliamXieCrypto/chain-indexing/projection/validator/view"
+	"github.com/WilliamXieCrypto/chain-indexing/projection/validatorstats"
+	validatorstats_view "github.com/WilliamXieCrypto/chain-indexing/projection/validatorstats/view"
 	"github.com/valyala/fasthttp"
 )
 
@@ -75,7 +75,7 @@ func (handler *StatusHandler) GetStatus(ctx *fasthttp.RequestCtx) {
 		return
 	}
 
-	// TODO: https://github.com/crypto-com/chain-indexing/issues/386
+	// TODO: https://github.com/WilliamXieCrypto/chain-indexing/issues/386
 	//rawTotalDelegated, err := handler.validatorStatsView.FindBy(validatorstats.TOTAL_DELEGATE)
 	//if err != nil {
 	//	handler.logger.Errorf("error fetching total delegate: %v", err)

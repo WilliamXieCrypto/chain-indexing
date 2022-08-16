@@ -1,11 +1,11 @@
 package pg_test
 
 import (
-	"github.com/crypto-com/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/crypto-com/chain-indexing/infrastructure/pg"
+	. "github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
 )
 
 var _ = Describe("ConnConfig", func() {
@@ -33,7 +33,7 @@ var _ = Describe("ConnConfig", func() {
 				SSL:           false,
 			}
 
-			Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing?sslmode=disable"))
+			Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing?sslmode=disable"))
 		})
 
 		It("should return Postgres connection string when SSL is enabled", func() {
@@ -46,7 +46,7 @@ var _ = Describe("ConnConfig", func() {
 				SSL:           true,
 			}
 
-			Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing"))
+			Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing"))
 		})
 
 		It("should return x-migrations-table in connection string when it is specified", func() {
@@ -60,7 +60,7 @@ var _ = Describe("ConnConfig", func() {
 				SSL:                   true,
 			}
 
-			Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing?x-migrations-table=migrations"))
+			Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing?x-migrations-table=migrations"))
 		})
 
 		It("should return Postgres connection string with params when XMigrationsTable is specified and SSL is disabled", func() {
@@ -74,7 +74,7 @@ var _ = Describe("ConnConfig", func() {
 				SSL:                   false,
 			}
 
-			Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing?sslmode=disable&x-migrations-table=migrations"))
+			Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing?sslmode=disable&x-migrations-table=migrations"))
 		})
 	})
 })

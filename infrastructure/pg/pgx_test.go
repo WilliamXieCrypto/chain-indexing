@@ -3,11 +3,11 @@ package pg_test
 import (
 	"time"
 
-	"github.com/crypto-com/chain-indexing/external/primptr"
+	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/crypto-com/chain-indexing/infrastructure/pg"
+	. "github.com/WilliamXieCrypto/chain-indexing/infrastructure/pg"
 )
 
 var _ = Describe("PgxConnPoolConfig", func() {
@@ -50,7 +50,7 @@ var _ = Describe("PgxConnPoolConfig", func() {
 					MaybeHealthCheckPeriod: nil,
 				}
 
-				Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing?sslmode=disable"))
+				Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing?sslmode=disable"))
 			})
 
 			It("should return Postgres connection string when SSL is enabled", func() {
@@ -70,7 +70,7 @@ var _ = Describe("PgxConnPoolConfig", func() {
 					MaybeHealthCheckPeriod: nil,
 				}
 
-				Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing"))
+				Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing"))
 			})
 		})
 
@@ -92,7 +92,7 @@ var _ = Describe("PgxConnPoolConfig", func() {
 					MaybeHealthCheckPeriod: primptr.Duration(30 * time.Second),
 				}
 
-				Expect(config.ToURL()).To(Equal("postgres://user:password@127.0.0.1:5432/chain-indexing?pool_health_check_period=30s&pool_max_conn_idle_time=1m0s&pool_max_conn_lifetime=5m0s&pool_max_conns=50&pool_min_conns=1"))
+				Expect(config.ToURL()).To(Equal("postgres://user@127.0.0.1:5432/chain-indexing?pool_health_check_period=30s&pool_max_conn_idle_time=1m0s&pool_max_conn_lifetime=5m0s&pool_max_conns=50&pool_min_conns=1"))
 			})
 		})
 	})

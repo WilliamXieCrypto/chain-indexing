@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
 )
 
 var _ = Describe("Json", func() {

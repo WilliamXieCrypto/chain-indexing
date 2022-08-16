@@ -1,6 +1,6 @@
 package test
 
-import "github.com/crypto-com/chain-indexing/external/logger"
+import "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 
 type FakeLogger struct{}
 

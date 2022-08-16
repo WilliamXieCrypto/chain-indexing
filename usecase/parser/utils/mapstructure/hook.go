@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/crypto-com/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/crypto-com/chain-indexing/usecase/model"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/model"
 )
 
 // []byte is JSON encoded as base64 string in Golang. This decode function converts string -> []byte pair correctly.

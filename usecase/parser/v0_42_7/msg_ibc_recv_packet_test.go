@@ -4,19 +4,19 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/crypto-com/chain-indexing/external/json"
-	V0_42_7_ibcmsg "github.com/crypto-com/chain-indexing/usecase/parser/v0_42_7/ibcmsg"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
+	V0_42_7_ibcmsg "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/v0_42_7/ibcmsg"
 
-	"github.com/crypto-com/chain-indexing/usecase/parser/utils"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/crypto-com/chain-indexing/infrastructure/tendermint"
-	"github.com/crypto-com/chain-indexing/usecase/event"
-	"github.com/crypto-com/chain-indexing/usecase/parser"
-	usecase_parser_test "github.com/crypto-com/chain-indexing/usecase/parser/test"
-	usecase_parser_V0_42_7_test "github.com/crypto-com/chain-indexing/usecase/parser/v0_42_7/test"
+	"github.com/WilliamXieCrypto/chain-indexing/infrastructure/tendermint"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/parser"
+	usecase_parser_test "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/test"
+	usecase_parser_V0_42_7_test "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/v0_42_7/test"
 )
 
 var _ = Describe("ParseMsgCommands", func() {

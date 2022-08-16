@@ -3,9 +3,9 @@ package event
 import (
 	"bytes"
 
-	"github.com/crypto-com/chain-indexing/usecase/coin"
+	"github.com/WilliamXieCrypto/chain-indexing/usecase/coin"
 
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/luci/go-render/render"
 )

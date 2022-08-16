@@ -3,8 +3,8 @@ package view
 import (
 	testify_mock "github.com/stretchr/testify/mock"
 
-	pagination_interface "github.com/crypto-com/chain-indexing/appinterface/pagination"
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
+	pagination_interface "github.com/WilliamXieCrypto/chain-indexing/appinterface/pagination"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
 )
 
 type MockTransactionsView struct {

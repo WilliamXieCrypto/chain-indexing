@@ -1,14 +1,14 @@
 package event_test
 
 import (
-	"github.com/crypto-com/chain-indexing/external/json"
+	"github.com/WilliamXieCrypto/chain-indexing/external/json"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	event_entity "github.com/crypto-com/chain-indexing/entity/event"
-	event_usecase "github.com/crypto-com/chain-indexing/usecase/event"
-	ibc_model "github.com/crypto-com/chain-indexing/usecase/model/ibc"
-	mapstructure_utils "github.com/crypto-com/chain-indexing/usecase/parser/utils/mapstructure"
+	event_entity "github.com/WilliamXieCrypto/chain-indexing/entity/event"
+	event_usecase "github.com/WilliamXieCrypto/chain-indexing/usecase/event"
+	ibc_model "github.com/WilliamXieCrypto/chain-indexing/usecase/model/ibc"
+	mapstructure_utils "github.com/WilliamXieCrypto/chain-indexing/usecase/parser/utils/mapstructure"
 )
 
 var _ = Describe("Event", func() {

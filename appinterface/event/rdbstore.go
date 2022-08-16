@@ -6,8 +6,8 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/crypto-com/chain-indexing/appinterface/rdb"
-	entity_event "github.com/crypto-com/chain-indexing/entity/event"
+	"github.com/WilliamXieCrypto/chain-indexing/appinterface/rdb"
+	entity_event "github.com/WilliamXieCrypto/chain-indexing/entity/event"
 )
 
 const DEFAULT_TABLE = "events"
