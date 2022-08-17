@@ -330,11 +330,12 @@ func InitRouteRegistry(
 			handler: ibcChannelMessageHandler.ListByChannelID,
 		},
 	)
-
+	bridgesConfig := httpapi_handlers.BridgesConfig{}
 	bridgesHandler := httpapi_handlers.NewBridges(
 		logger,
 		rdbConn.ToHandle(),
 		accountAddressPrefix,
+		bridgesConfig,
 	)
 	routes = append(routes,
 		Route{

@@ -9,6 +9,8 @@ import (
 	configuration "github.com/WilliamXieCrypto/chain-indexing/bootstrap/config"
 	"github.com/WilliamXieCrypto/chain-indexing/example/app/example-app/routes"
 	"github.com/WilliamXieCrypto/chain-indexing/example/internal/filereader/yaml"
+	"github.com/urfave/cli/v2"
+
 	applogger "github.com/WilliamXieCrypto/chain-indexing/external/logger"
 	"github.com/WilliamXieCrypto/chain-indexing/external/primptr"
 	"github.com/WilliamXieCrypto/chain-indexing/infrastructure"

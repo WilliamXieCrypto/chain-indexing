@@ -320,7 +320,7 @@ func InitProjection(name string, params InitProjectionParams) projection_entity.
 			params.Logger.Panicf(err.Error())
 		}
 
-		return bridge_pending_activity.NewBridgePendingActivity(params.Logger, params.RdbConn, migrationHelper, config)
+		return bridge_pending_activity.New(config, params.Logger, params.RdbConn, migrationHelper)
 	}
 
 	return nil

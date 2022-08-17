@@ -86,7 +86,7 @@ postgres:
   # password: "postgres"
   name: "postgres"
   schema: "public"
-  ssl: true
+  ssl: false
   pool_max_conns: 100
   pool_min_conns: 0
   pool_max_conn_life_time: "1h"
