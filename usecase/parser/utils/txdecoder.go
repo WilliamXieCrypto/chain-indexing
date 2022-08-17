@@ -24,7 +24,7 @@ import (
 	ibcclienttypes "github.com/cosmos/ibc-go/modules/core/02-client/types"
 	ibcconnectiontypes "github.com/cosmos/ibc-go/modules/core/03-connection/types"
 	ibcchanneltypes "github.com/cosmos/ibc-go/modules/core/04-channel/types"
-	ibccommitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"
+	//ibccommitmenttypes "github.com/cosmos/ibc-go/modules/core/23-commitment/types"
 	ibctypes "github.com/cosmos/ibc-go/modules/core/types"
 	nfttypes "github.com/crypto-org-chain/chain-main/v3/x/nft/types"
 	cronostypes "github.com/crypto-org-chain/cronos/x/cronos/types"
@@ -67,7 +67,7 @@ func RegisterDecoderInterfaces(interfaceRegistry types.InterfaceRegistry) {
 	ibctransfertypes.RegisterInterfaces(interfaceRegistry)
 	ibcconnectiontypes.RegisterInterfaces(interfaceRegistry)
 	ibcchanneltypes.RegisterInterfaces(interfaceRegistry)
-	ibccommitmenttypes.RegisterInterfaces(interfaceRegistry)
+	//ibccommitmenttypes.RegisterInterfaces(interfaceRegistry)
 	nfttypes.RegisterInterfaces(interfaceRegistry)
 	authztypes.RegisterInterfaces(interfaceRegistry)
 	feegranttypes.RegisterInterfaces(interfaceRegistry)
